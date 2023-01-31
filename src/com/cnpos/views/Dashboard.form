@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.cnpos.views.Dashboard">
+  <grid id="27dc6" binding="container" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="1024"/>
+    </constraints>
+    <properties>
+      <background color="-855310"/>
+      <maximumSize width="1280" height="800"/>
+      <minimumSize width="1280" height="800"/>
+      <preferredSize width="1280" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="56033" binding="sidePanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="5.0E-4" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-13815486"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ded15" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.01" ipady="15"/>
+            </constraints>
+            <properties>
+              <icon value="com/cnpos/assets/logo-dashboard.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="95e86" binding="itemListPanel" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.99"/>
+            </constraints>
+            <properties>
+              <background color="-13815486"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b8aa1" class="javax.swing.JButton" binding="ordersButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="11"/>
+                  <icon value="com/cnpos/assets/box.png"/>
+                  <iconTextGap value="8"/>
+                  <label value="Orders"/>
+                  <text value="Orders"/>
+                </properties>
+              </component>
+              <component id="ee458" class="javax.swing.JButton" binding="employeesButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <focusable value="true"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="4"/>
+                  <icon value="com/cnpos/assets/id-card.png"/>
+                  <iconTextGap value="8"/>
+                  <text value="Employees"/>
+                </properties>
+              </component>
+              <component id="bb735" class="javax.swing.JButton" binding="addressesButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <icon value="com/cnpos/assets/address.png"/>
+                  <iconTextGap value="8"/>
+                  <label value="Addresses"/>
+                  <text value="Addresses"/>
+                </properties>
+              </component>
+              <component id="194f4" class="javax.swing.JButton" binding="salesButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <icon value="com/cnpos/assets/online-shopping.png"/>
+                  <iconTextGap value="8"/>
+                  <text value="Sales"/>
+                </properties>
+              </component>
+              <component id="e3c02" class="javax.swing.JButton" binding="customersButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <icon value="com/cnpos/assets/rating.png"/>
+                  <iconTextGap value="8"/>
+                  <text value="Customers"/>
+                </properties>
+              </component>
+              <component id="6b995" class="javax.swing.JButton" binding="entriesButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <icon value="com/cnpos/assets/login.png"/>
+                  <iconTextGap value="8"/>
+                  <text value="Entries"/>
+                </properties>
+              </component>
+              <component id="1c706" class="javax.swing.JButton" binding="supliersButton" default-binding="true">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13815486"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font name="Roboto Light" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <icon value="com/cnpos/assets/supplier.png"/>
+                  <iconTextGap value="8"/>
+                  <text value="Supliers"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="5da10" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="15" left="15" bottom="15" right="15"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.9005" weighty="1.0" ipadx="15" ipady="15"/>
+        </constraints>
+        <properties>
+          <background color="-855310"/>
+          <minimumSize width="-1" height="24"/>
+          <preferredSize width="-1" height="24"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
